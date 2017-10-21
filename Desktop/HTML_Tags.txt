@@ -1,0 +1,196 @@
+<p>
+  <h1 align="center">Теги HTML</h1><br>
+  
+  <b>Тег:</b>
+  <font color="blue"> &lt;title&gt;&lt;/title&gt;</font> - определяет заголовок документа. <br>
+  Элемент &lt;title&gt; не является частью документа и не показывается напрямую на веб-странице. <br>
+  В операционной системе Windows текст заголовка отображается в левом верхнем углу окна браузера.<br> 
+  Допускается использовать только один тег &lt;title&gt; на документ и размещать его в контейнере &lt;head&gt;.<br><br>
+
+  <b>Тег:</b>
+  <font color="blue"> &lt;iframe&gt;&lt;/iframe&gt;</font> - создает плавающий фрейм, который находится внутри обычного документа, 
+  он позволяет загружать в область заданных размеров любые другие независимые документы.<br>
+  <b>Пример использования:</b><br>
+  <iframe src="http://barkpost-assets.s3.amazonaws.com/wp-content/uploads/2013/11/muchdoge-700x393.jpg">WOW!</iframe><br>
+  <b>Код:</b>
+  <br /> &lt;iframe src="http://barkpost-assets.s3.amazonaws.com/wp-content/uploads/2013/11/muchdoge-700x393.jpg"&gt;<br> &nbsp;&nbsp;WOW!<br /> &lt;/iframe&gt;<br><br>
+
+  <b>Тег:</b>
+  <font color="blue"> &lt;a&gt;&lt;/a&gt;</font> - создает ссылку<br>
+  <b>Пример использования:</b>
+  <a href="https://www.youtube.com/watch?v=2KdVoCISHiU">Ссылка на видеоролик</a><br>
+  <b>Код:</b>
+  <br /> &lt;a href="https://www.youtube.com/watch?v=2KdVoCISHiU"&gt;<br /> &nbsp;&nbsp;Ссылка на видеоролик<br /> &lt;/a&gt;<br><br><br>
+
+<h2>Теги форматирования тескта</h2>
+
+  <b>Тег:</b>
+  <font color="blue"> &lt;b&gt;&lt;/b&gt;</font> - устанавливает жирное начертание шрифта<br>
+  <b>Пример использования: «Жирный текст»</b><br>
+  <b>Код:</b> &lt;b&gt;«Жирный текст»&lt;/b&gt;<br><br>
+
+  <b>Тег:</b>
+  <font color="blue"> &lt;big&gt;&lt;/big&gt;</font> - увеличивает размер шрифта на единицу по сравнению с обычным текстом<br>
+  <b>Пример использования:</b> <big>Увеличинный текст</big><br>
+  <b>Код:</b> &lt;big&gt;Увеличинный текст&lt;/big&gt;<br><br>
+
+  <b>Тег:</b>
+  <font color="blue"> &lt;br&gt;</font> - перенос строки<br>
+  <b>Пример использования:</b> <br>Хоп Хэй<br>Лалалей<br>
+  <b>Код:</b><br> &lt;br&gt;Хоп Хэй&lt;br&gt;Лалалей<br><br>
+
+  <b>Тег:</b>
+  <font color="blue"> &lt;center&gt;&lt;/center&gt;</font> - выравнивает по центру<br>
+  <b>Пример использования:</b> <center>Выравнен по центру</center>
+  <b>Код:</b> &lt;center&gt;Выравнен по центру&lt;/center&gt;<br><br>
+
+  <b>Тег:</b>
+  <font color="blue"> &lt;small&gt;&lt;/small&gt;</font> - уменьшает размер шрифта на единицу по сравнению с обычным текстом<br>
+  <b>Пример использования:</b> <small>Уменьшенный текст</small><br>
+  <b>Код:</b> &lt;small&gt;Уменьшенный текст&lt;/small&gt;<br><br>
+  
+  <b>Тег:</b>
+  <font color="blue"> &lt;strong&gt;&lt;/strong&gt;</font> - предназначен для акцентирования текста. 
+  В отличии от тега  <font color="blue">&lt;b&gt;</font>  является тегом логической разметки и определяет важность помеченного текста.<br>
+  <b>Пример использования:</b> <strong>Очень важный текст!</strong><br>
+  <b>Код:</b> &lt;strong&gt;Очень важный тект!&lt;/strong&gt;<br><br>
+  
+ <b>Тег:</b>
+  <font color="blue"> &lt;sub&gt;&lt;/sub&gt;</font> - отображает шрифт в виде нижнего индекса. 
+  Текст при этом располагается ниже базовой линии остальных символов строки и уменьшенного размера.<br>
+  <b>Пример использования:</b>
+  <br>O<sub>2</sub> - это кислород
+  <br>CO<sub>2</sub> - это углекислый газ<br>
+  <b>Код:</b><br>
+  &lt;br&gt;O&lt;sub&gt;2&lt;/sub&gt; - это кислород<br>
+  &lt;br&gt;CO&lt;sub&gt;2&lt;/sub&gt; - это углекислый газ<br><br>
+  
+  <b>Тег:</b>
+  <font color="blue"> &lt;sup&gt;&lt;/sup&gt;</font> - отображает шрифт в виде верхнего индекса.
+   Шрифт при этом отображается выше базовой линии текста и уменьшенного размера.<br>
+  <b>Пример использования:</b> (x - a) <sup>2</sup> + (y - b)<sup>2</sup> = R<sup>2</sup><br>
+  <b>Код:</b> (x - a)&lt;sup&gt;2&lt;/sup&gt; + (y - b)&lt;sup&gt;2&lt;/sup&gt; = R&lt;sup&gt;2&lt;/sup&gt;<br><br>
+  
+  <b>Тег:</b>
+  <font color="blue"> &lt;font&gt;&lt;/font&gt;</font> - изменяет характеристики шрифта, такие как размер, цвет и гарнитура.<br>
+  <b>Пример использования:</b> <font size="5" color="red" face="Calibri Light"> Предложение красного цвета со шрифтом увеличенного размера Calibri Light</font><br>
+  <b>Код:</b> &lt;font size="5" color="red" face="Calibri Light"&gt;Предложение красного цвета со шрифтом увеличенного размера Calibri Light&lt;/font&gt;<br><br><br>
+
+  <h2>Теги заголовков</h2>
+  
+  <b>Тег:</b>
+  <font color="blue"> &lt;h1&gt;&lt;/h1&gt;</font> - заголовок 1-го уровня<br>
+  <b>Пример использования:</b> <h1>Заголовок 1-го уровня</h1>
+  <b>Код:</b> &lt;h1&gt;Заголовок 1-го уровня&lt;/h1&gt;<br><br><br>
+
+  <b>Тег:</b>
+  <font color="blue"> &lt;h2&gt;&lt;/h2&gt;</font> - заголовок 2-го уровня<br>
+  <b>Пример использования:</b> <h2>Заголовок 2-го уровня</h2>
+  <b>Код:</b> &lt;h2&gt;Заголовок 2-го уровня&lt;/h2&gt;<br><br><br>
+
+  <b>Тег:</b>
+  <font color="blue"> &lt;h3&gt;&lt;/h3&gt;</font> - заголовок 3-го уровня<br>
+  <b>Пример использования:</b> <h3>Заголовок 3-го уровня</h3>
+  <b>Код:</b> &lt;h3&gt;Заголовок 3-го уровня&lt;/h3&gt;<br><br><br>
+
+  <b>Тег:</b>
+  <font color="blue"> &lt;h4&gt;&lt;/h4&gt;</font> - заголовок 4-го уровня<br>
+  <b>Пример использования:</b> <h4>Заголовок 4-го уровня</h4>
+  <b>Код:</b> &lt;h4&gt;Заголовок 4-го уровня&lt;/h4&gt;<br><br><br>
+
+  <b>Тег:</b>
+  <font color="blue"> &lt;h5&gt;&lt;/h5&gt;</font> - заголовок 5-го уровня<br>
+  <b>Пример использования:</b> <h5>Заголовок 5-го уровня</h5>
+  <b>Код:</b> &lt;h5&gt;Заголовок 5-го уровня&lt;/h5&gt;<br><br><br>
+
+  <b>Тег:</b>
+  <font color="blue"> &lt;h6&gt;&lt;/h6&gt;</font> - заголовок 6-го уровня<br>
+  <b>Пример использования:</b> <h6>Заголовок 6-го уровня</h6>
+  <b>Код:</b> &lt;h6&gt;Заголовок 6-го уровня&lt;/h6&gt;<br><br><br>
+  
+
+<h2> Создание списков</h2>
+  <b>Тег:</b>
+  <font color="blue"> &lt;ul&gt;&lt;/ul&gt;</font> - устанавливает маркированный список
+  <font color="blue"> &lt;ol&gt;&lt;/ol&gt;</font> - устанавливает нумерованный список
+  <font color="blue"> &lt;li&gt;&lt;/li&gt;</font> - задает маркированный список<br>
+  <b>Пример использования:</b><br>
+<h4> Маркированный список</h4>
+  <ul>
+    <li>Хлеб</li>
+    <li>Молоко</li>
+    <li>Яйца</li>
+    <li>Сыр</li>
+  </ul>
+<h4>Нумерованный список</h4>
+  <ol>
+    <li>Химия</li>
+    <li>Физика</li>
+    <li>Информатика</li>
+    <li>Русский язык</li>
+  </ol>
+<b>Код:</b> <br>
+&lt;h4&gt;Маркированный список&lt;/h4&gt;<br>
+  &lt;ul&gt;<br>
+&nbsp;  &lt;li&gt;Хлеб&lt;/li&gt;<br>
+&nbsp;  &lt;li&gt;Молоко&lt;/li&gt;<br>
+&nbsp;  &lt;li&gt;Яйца&lt;/li&gt;<br>
+&nbsp;  &lt;li&gt;Сыр&lt;/li&gt;<br>
+&lt;/ul&gt;<br><br>
+&lt;h4&gt;Нумерованный список&lt;/h4&gt;<br>
+&lt;ol&gt;<br>
+&nbsp;  &lt;li&gt;Химия&lt;/li&gt;<br>
+&nbsp;  &lt;li&gt;Физика&lt;/li&gt;<br>
+&nbsp;  &lt;li&gt;Информатика&lt;/li&gt;<br>
+&nbsp;  &lt;li&gt;Русский язык&lt;/li&gt;<br>
+&lt;/ol&gt;<br><br>
+
+<h2> Создание таблиц</h2>
+<b>Тег:</b>
+  <font color="blue"> &lt;table&gt;&lt;/table&gt;</font> - устанавливает таблицу
+  <font color="blue"> &lt;tr&gt;&lt;/tr&gt;</font> - созание строки таблицы
+  <font color="blue"> &lt;td&gt;&lt;/td&gt;</font> - создание одной ячейки таблицы<br>
+  <b>Пример использования:</b><br>
+ <table border="1">
+   <tr>
+     <td>Х</td>
+     <td>О</td>
+     <td>Х</td>
+   </tr>
+   <tr>
+     <td>O</td>
+     <td>Х</td>
+     <td>Х</td>
+   </tr>
+   <tr>
+     <td>О</td>
+     <td>О</td>
+     <td>Х</td>
+   </tr>
+</table>
+<b>Код:</b> <br>
+&lt;table&gt;<br>
+&nbsp;     &lt;tr&gt;<br>
+&nbsp;&nbsp;  &lt;td&gt;Х&lt;/td&gt;<br>
+&nbsp;&nbsp;  &lt;td&gt;О&lt;/td&gt;<br>
+&nbsp;&nbsp;  &lt;td&gt;Х&lt;/td&gt;<br>
+&nbsp;      &lt;/tr&gt;<br>
+&nbsp;      &lt;tr&gt;<br>
+&nbsp;&nbsp;  &lt;td&gt;О&lt;/td&gt;<br>
+&nbsp;&nbsp;  &lt;td&gt;Х&lt;/td&gt;<br>
+&nbsp;&nbsp;  &lt;td&gt;Х&lt;/td&gt;<br>
+&nbsp;      &lt;/tr&gt;<br>
+&nbsp;      &lt;tr&gt;<br>
+&nbsp;&nbsp;  &lt;td&gt;О&lt;/td&gt;<br>
+&nbsp;&nbsp;  &lt;td&gt;О&lt;/td&gt;<br>
+&nbsp;&nbsp;  &lt;td&gt;Х&lt;/td&gt;<br>
+&nbsp;      &lt;/tr&gt;<br>
+&lt;/table&gt;<br><br>
+
+<h2>Работа с изображениями</h2>
+<b>Тег:</b>
+<font color="blue"> &lt;img&gt; </font> - вставляет изображение на страницу<br>
+<b>Пример использования:</b><br>
+<img src="https://i.redd.it/nifxfj9d11fy.png" alt="Деду нравится"><br>
+<b>Код:</b> &lt;img src="https://i.redd.it/nifxfj9d11fy.png" alt="Деду нравится"&gt;<br><br><br>
+</p>
